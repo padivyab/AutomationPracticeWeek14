@@ -1,0 +1,539 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23093394100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "verifyThatUserShouldCreateAccountSuccessfully",
+        "description": "",
+        "id": "create-account-page-test;verifythatusershouldcreateaccountsuccessfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 205800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 684700200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "createnewaccountsteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15894135600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on sign in link",
+            "match": {
+              "location": "createnewaccountsteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 868437200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter email \"padiv123457890@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "padiv123457890@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304659800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on create an account button",
+            "match": {
+              "location": "createnewaccountsteps.iClickOnCreateAnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7256708000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter first name \"diva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "diva",
+                  "offset": 20
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444141800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter last name \"patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "patel",
+                  "offset": 19
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 391679800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter register password \"Divo123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Divo123456",
+                  "offset": 27
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterRegisterPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1278164800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter address \"213 sukhesha avenue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "213 sukhesha avenue",
+                  "offset": 17
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterAddress(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1503086900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter city \"oshawa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oshawa",
+                  "offset": 14
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterCity(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595933000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select state \"Arizona\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arizona",
+                  "offset": 16
+                }
+              ],
+              "location": "createnewaccountsteps.iSelectState(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735312000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter postal code \"34568\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34568",
+                  "offset": 21
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterPostalCode(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496258100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select country \"United States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United States",
+                  "offset": 18
+                }
+              ],
+              "location": "createnewaccountsteps.iSelectCountry(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 547299200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter phone number \"9898046734\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9898046734",
+                  "offset": 22
+                }
+              ],
+              "location": "createnewaccountsteps.iEnterPhoneNumber(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9776641100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on register button",
+            "match": {
+              "location": "createnewaccountsteps.iClickOnRegisterButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159227200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify account name \"diva patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "diva patel",
+                  "offset": 23
+                }
+              ],
+              "location": "createnewaccountsteps.iVerifyAccountName(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Account Page Test",
+    "description": "",
+    "id": "create-account-page-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/createnewaccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13281755600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user if there is an item already inside my basket",
+        "description": "",
+        "id": "shopping-cart-functionality;as-a-user-if-there-is-an-item-already-inside-my-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 537893700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "shoppincartsteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000172700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on woman tab",
+            "match": {
+              "location": "shoppincartsteps.iClickOnWomanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4991748600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on product",
+            "match": {
+              "location": "shoppincartsteps.iClickOnProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480037500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "shoppincartsteps.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9590798900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "shoppincartsteps.iProceedToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277212200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button",
+            "match": {
+              "location": "shoppincartsteps.iClickOnDeleteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149355700,
+              "error_message": "java.lang.AssertionError: expected [Your shopping cart is empty.] but found []\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.automation.steps.shoppincartsteps.iCanSeeShoppingCartIsEmpty(shoppincartsteps.java:47)\r\n\tat ✽.Then I can see shopping cart is empty(src/test/java/resources/featurefile/shoppingcart.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I can see shopping cart is empty",
+            "match": {
+              "location": "shoppincartsteps.iCanSeeShoppingCartIsEmpty()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19934452700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "As a user I want to select the summer Dresses option from the navigation menu",
+        "description": "",
+        "id": "shopping-cart-functionality;as-a-user-i-want-to-select-the-summer-dresses-option-from-the-navigation-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 956098400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "shoppincartsteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2807228800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I mousehover on woman tab",
+            "match": {
+              "location": "summerdressessteps.iMousehoverOnWomanTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11671398300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on summer dresses",
+            "match": {
+              "location": "summerdressessteps.iClickOnSummerDresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 930320200,
+              "error_message": "org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome\u003d105.0.5195.126)\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-ELH5PJN7\u0027, ip: \u002710.0.0.144\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cc9bdc1012673ab7c394d878f62b60fc, actions {actions\u003d[org.openqa.selenium.interactions.Sequence@574a89e2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\DIVYAP~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52713/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cc9bdc1012673ab7c394d878f62b60fc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:573)\r\n\tat com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:46)\r\n\tat com.automation.steps.summerdressessteps.iPriceChange(summerdressessteps.java:26)\r\n\tat ✽.And I price change(src/test/java/resources/featurefile/shoppingcart.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I price change",
+            "match": {
+              "location": "summerdressessteps.iPriceChange()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I verify summer dresses page",
+            "match": {
+              "location": "summerdressessteps.iVerifySummerDressesPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart Functionality",
+    "description": "As user I want to add and delete the item",
+    "id": "shopping-cart-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/shoppingcart.feature"
+  }
+]

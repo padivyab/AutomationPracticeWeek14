@@ -18,7 +18,7 @@ Feature: Create Account Page Test
     Then  I verify account name "diva patel"
     Examples:
       | email                 | firstname | lastname | password   | address             | city   | state   | postalcode | country       | phonenumber |
-      | padiv1234578@gmail.com | diva      | patel    | Divo123456 | 213 sukhesha avenue | oshawa | Arizona | 34568      | United States | 9898046734  |
+      | padiv123457890@gmail.com | diva      | patel    | Divo123456 | 213 sukhesha avenue | oshawa | Arizona | 34568      | United States | 9898046734  |
 
 
 

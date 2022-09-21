@@ -9,7 +9,7 @@ Feature: Shopping Cart Functionality
     And    I click on add to cart
     And    I proceed to checkout
     And    I click on delete button
-    Then   verify "Your shopping cart is empty."
+    Then   I can see shopping cart is empty
 
     Scenario: As a user I want to select the summer Dresses option from the navigation menu
 

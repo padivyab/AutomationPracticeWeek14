@@ -29,6 +29,23 @@ public class HomePage extends Utility {
     @FindBy(xpath = "//a[@title='Women']")
     WebElement womantab;
 
+    @CacheLookup
+    @FindBy(xpath = "//ul[@class='product_list grid row']/li[1]/div[1]/div[2]/h5[1]/a[1]")
+    WebElement productFadded;
+
+    public void ClickProductFadded()
+    {
+        clickOnElement(productFadded);
+    }
+    @CacheLookup
+    @FindBy(xpath = "//div[@class='box-cart-bottom']/div[1]/p[1]/button[1]/span[1]")
+    WebElement addbutton;
+
+    public void ClickAddButton()
+    {
+        clickOnElement(addbutton);
+    }
+
     /* @FindBy(xpath = "//button[@name='Submit']")   //p[@id='add_to_cart']
     @CacheLookup
     @FindBy(xpath = "//p[@id='add_to_cart']")   //div[@class='box-cart-bottom']/div[1]/p[1]/button[1]  //div[@class='box-cart-bottom']/div[1]/p[1]/button[1]
@@ -54,7 +71,7 @@ public class HomePage extends Utility {
     WebElement delete;
 
     @CacheLookup
-    @FindBy(xpath = "//div[@class='shopping_cart']/a[1]")
+    @FindBy(xpath = "//div[@id='center_column']/p[1]") ////div[@id='center_column']/p[1] //p[@class='alert alert-warning']
     WebElement verifyMsg;
 
     public void ClickWomanTab()

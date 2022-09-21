@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 20, 2022 04:31:05 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 21, 2022 06:18:06 PM</span>
 				</a>
 			</li>
 			<li>
@@ -130,10 +130,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -145,10 +145,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>3</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -160,10 +160,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='37.037%'><span class='strong'>10</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='88.889%'><span class='strong'>24</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='11.111%'>3</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='51.852%'>14</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='7.407%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='3.704%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -177,21 +177,21 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Create Account Page Test</span>
-						<span class='test-time'>Sep 20, 2022 04:31:05 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 21, 2022 06:18:07 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 42s+564ms</span>
+<div class='scenariooutline node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 1m 4s+923ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">verifyThatUserShouldCreateAccountSuccessfully</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='3' class='node scenario fail' status='fail'>
+		<li test-id='3' class='node scenario pass' status='pass'>
 			
 			<b>Scenario</b>
 			
@@ -207,90 +207,56 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='6' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I Enter email "padiv123457@gmail.com"</span>
+						<span class="bdd-step-name">And I Enter email "padiv123457890@gmail.com"</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='7' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I click on create an account button</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='8' class='node and fail' status='fail'><b>And</b>
+					<li test-id='8' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter first name "diva"</span>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='customer_firstname']"}
-  (Session info: chrome=105.0.5195.126)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-ELH5PJN7', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9d19e35352905ba94492a9986fff6508, findElement {using=xpath, value=//input[@id='customer_firstname']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49638/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d19e35352905ba94492a9986fff6508
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)
-	at com.automation.utilities.Utility.sendTextToElement(Utility.java:75)
-	at com.automation.pages.CreateAccountPage.EnterFirstName(CreateAccountPage.java:84)
-	at com.automation.steps.createnewaccountsteps.iEnterFirstName(createnewaccountsteps.java:37)
-	at ✽.And I enter first name "diva"(src/test/java/resources/featurefile/createnewaccount.feature:8)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='9' class='node and skip' status='skip'><b>And</b>
+					<li test-id='9' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter last name "patel"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='10' class='node and skip' status='skip'><b>And</b>
+					<li test-id='10' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter register password "Divo123456"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='11' class='node and skip' status='skip'><b>And</b>
+					<li test-id='11' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter address "213 sukhesha avenue"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='12' class='node and skip' status='skip'><b>And</b>
+					<li test-id='12' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter city "oshawa"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='13' class='node and skip' status='skip'><b>And</b>
+					<li test-id='13' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I select state "Arizona"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='14' class='node and skip' status='skip'><b>And</b>
+					<li test-id='14' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter postal code "34568"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='15' class='node and skip' status='skip'><b>And</b>
+					<li test-id='15' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I select country "United States"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='16' class='node and skip' status='skip'><b>And</b>
+					<li test-id='16' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And I enter phone number "9898046734"</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='17' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='17' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then I click on register button</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='18' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='18' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then I verify account name "diva patel"</span>
-						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\homework\AutomationPracticeWeek14/src/main/java/com/automation/logs/screenshots/verifyThatUserShouldCreateAccountSuccessfully20220920043147.png"><i class='material-icons'>panorama</i></a></li>
-						</ul>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
@@ -303,12 +269,12 @@ Session ID: 9d19e35352905ba94492a9986fff6508
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='19'>
 					<div class='test-heading'>
 						<span class='test-name'>Shopping Cart Functionality</span>
-						<span class='test-time'>Sep 20, 2022 04:31:48 PM</span>
+						<span class='test-time'>Sep 21, 2022 06:19:12 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='20' status='fail'>
-	<span class='duration right label'>0h 0m 27s+699ms</span>
+	<span class='duration right label'>0h 0m 34s+833ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">As a user if there is an item already inside my basket</span>
@@ -338,77 +304,54 @@ Session ID: 9d19e35352905ba94492a9986fff6508
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='24' class='node and fail' status='fail'>
+		<li test-id='24' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I click on add to cart</span>
-				<div class='pre'><textarea>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=105.0.5195.126)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-ELH5PJN7', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e952ebbfac161863330c8936c90a9f03, clickElement {id=b5226f64-994b-43c2-a18e-e3dcdd89f51d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49723}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49723/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e952ebbfac161863330c8936c90a9f03)] -> xpath: //span[contains(text(),'Add to cart')]]
-Session ID: e952ebbfac161863330c8936c90a9f03
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at com.automation.utilities.Utility.clickOnElement(Utility.java:53)
-	at com.automation.pages.HomePage.ClickCart(HomePage.java:89)
-	at com.automation.steps.shoppincartsteps.iClickOnAddToCart(shoppincartsteps.java:29)
-	at ✽.And I click on add to cart(src/test/java/resources/featurefile/shoppingcart.feature:9)
-</textarea></div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='25' class='node and skip' status='skip'>
+		<li test-id='25' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I proceed to checkout</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='26' class='node and skip' status='skip'>
+		<li test-id='26' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And I click on delete button</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='27' class='node then skip' status='skip'>
+		<li test-id='27' class='node then fail' status='fail'>
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then verify "Your shopping cart is empty."</span>
+			<span class="bdd-step-name">Then I can see shopping cart is empty</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="C:\homework\AutomationPracticeWeek14/src/main/java/com/automation/logs/screenshots/As_a_user_if_there_is_an_item_already_inside_my_basket20220920043215.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="C:\homework\AutomationPracticeWeek14/src/main/java/com/automation/logs/screenshots/As_a_user_if_there_is_an_item_already_inside_my_basket20220921061947.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
-				<div class='pre'>skipped</div>
+				<div class='pre'><pre>java.lang.AssertionError: expected [Your shopping cart is empty.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.automation.steps.shoppincartsteps.iCanSeeShoppingCartIsEmpty(shoppincartsteps.java:47)
+	at ✽.Then I can see shopping cart is empty(src/test/java/resources/featurefile/shoppingcart.feature:12)
+</pre></div>
 			
 		</li>
 	</ul>
 </div>
 <div class='scenario node' test-id='28' status='fail'>
-	<span class='duration right label'>0h 0m 9s+276ms</span>
+	<span class='duration right label'>0h 0m 35s+431ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">As a user I want to select the summer Dresses option from the navigation menu</span>
@@ -446,11 +389,11 @@ Session ID: e952ebbfac161863330c8936c90a9f03
 				<div class='pre'><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
   (Session info: chrome=105.0.5195.126)
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-ELH5PJN7', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'LAPTOP-ELH5PJN7', ip: '10.0.0.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [465c43f16f32fb1eee2dfed927162ab8, actions {actions=[org.openqa.selenium.interactions.Sequence@2e060819]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49795/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 465c43f16f32fb1eee2dfed927162ab8
+Command: [cc9bdc1012673ab7c394d878f62b60fc, actions {actions=[org.openqa.selenium.interactions.Sequence@574a89e2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52713/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc9bdc1012673ab7c394d878f62b60fc
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -465,7 +408,7 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:573)
-	at com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:44)
+	at com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:46)
 	at com.automation.steps.summerdressessteps.iPriceChange(summerdressessteps.java:26)
 	at ✽.And I price change(src/test/java/resources/featurefile/shoppingcart.feature:19)
 </pre></div>
@@ -477,7 +420,7 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
 			
 			<span class="bdd-step-name">Then I verify summer dresses page</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="C:\homework\AutomationPracticeWeek14/src/main/java/com/automation/logs/screenshots/As_a_user_I_want_to_select_the_summer_Dresses_option_from_the_navigation_menu20220920043225.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="C:\homework\AutomationPracticeWeek14/src/main/java/com/automation/logs/screenshots/As_a_user_I_want_to_select_the_summer_Dresses_option_from_the_navigation_menu20220921062023.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>skipped</div>
 			
@@ -539,7 +482,7 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+                                <span class='exception-name'>java.lang.AssertionError</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -554,98 +497,18 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 20, 2022 04:31:27 PM</td>
-                                                        <td class='linked' test-id='8'>Create Account Page Test.verifyThatUserShouldCreateAccountSuccessfully.verifyThatUserShouldCreateAccountSuccessfully.And I enter first name "diva"</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='customer_firstname']"}
-  (Session info: chrome=105.0.5195.126)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-ELH5PJN7', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9d19e35352905ba94492a9986fff6508, findElement {using=xpath, value=//input[@id='customer_firstname']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49638/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d19e35352905ba94492a9986fff6508
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)
-	at com.automation.utilities.Utility.sendTextToElement(Utility.java:75)
-	at com.automation.pages.CreateAccountPage.EnterFirstName(CreateAccountPage.java:84)
-	at com.automation.steps.createnewaccountsteps.iEnterFirstName(createnewaccountsteps.java:37)
-	at ✽.And I enter first name "diva"(src/test/java/resources/featurefile/createnewaccount.feature:8)
+                                                        <td>Sep 21, 2022 06:19:46 PM</td>
+                                                        <td class='linked' test-id='27'>Shopping Cart Functionality.As a user if there is an item already inside my basket.Then I can see shopping cart is empty</td>
+                                                        <td><pre><pre>java.lang.AssertionError: expected [Your shopping cart is empty.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.automation.steps.shoppincartsteps.iCanSeeShoppingCartIsEmpty(shoppincartsteps.java:47)
+	at ✽.Then I can see shopping cart is empty(src/test/java/resources/featurefile/shoppingcart.feature:12)
 </pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.ElementNotInteractableException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Sep 20, 2022 04:31:55 PM</td>
-                                                        <td class='linked' test-id='24'>Shopping Cart Functionality.As a user if there is an item already inside my basket.And I click on add to cart</td>
-                                                        <td><pre><textarea>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=105.0.5195.126)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-ELH5PJN7', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e952ebbfac161863330c8936c90a9f03, clickElement {id=b5226f64-994b-43c2-a18e-e3dcdd89f51d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49723}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49723/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e952ebbfac161863330c8936c90a9f03)] -> xpath: //span[contains(text(),'Add to cart')]]
-Session ID: e952ebbfac161863330c8936c90a9f03
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at com.automation.utilities.Utility.clickOnElement(Utility.java:53)
-	at com.automation.pages.HomePage.ClickCart(HomePage.java:89)
-	at com.automation.steps.shoppincartsteps.iClickOnAddToCart(shoppincartsteps.java:29)
-	at ✽.And I click on add to cart(src/test/java/resources/featurefile/shoppingcart.feature:9)
-</textarea></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -669,16 +532,16 @@ Session ID: e952ebbfac161863330c8936c90a9f03
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 20, 2022 04:32:25 PM</td>
+                                                        <td>Sep 21, 2022 06:20:22 PM</td>
                                                         <td class='linked' test-id='32'>Shopping Cart Functionality.As a user I want to select the summer Dresses option from the navigation menu.And I price change</td>
                                                         <td><pre><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
   (Session info: chrome=105.0.5195.126)
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-ELH5PJN7', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'LAPTOP-ELH5PJN7', ip: '10.0.0.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [465c43f16f32fb1eee2dfed927162ab8, actions {actions=[org.openqa.selenium.interactions.Sequence@2e060819]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49795/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 465c43f16f32fb1eee2dfed927162ab8
+Command: [cc9bdc1012673ab7c394d878f62b60fc, actions {actions=[org.openqa.selenium.interactions.Sequence@574a89e2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DIVYAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52713/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc9bdc1012673ab7c394d878f62b60fc
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -693,7 +556,7 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:573)
-	at com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:44)
+	at com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:46)
 	at com.automation.steps.summerdressessteps.iPriceChange(summerdressessteps.java:26)
 	at ✽.And I price change(src/test/java/resources/featurefile/shoppingcart.feature:19)
 </pre></pre></td>
@@ -740,19 +603,19 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 20, 2022 04:31:05 PM</div>
+					<div class='panel-lead'>Sep 21, 2022 06:18:06 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 20, 2022 04:32:25 PM</div>
+			 		<div class='panel-lead'>Sep 21, 2022 06:20:24 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>80,817ms</div>
+					<div class='panel-lead'>137,607ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -801,31 +664,31 @@ Session ID: 465c43f16f32fb1eee2dfed927162ab8
 
 		<script>
 			var statusGroup = {
-				passParent: 0,
-				failParent: 2,
+				passParent: 1,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 2,
+				exceptionsParent: 1,
 				
-				passChild: 0,
-				failChild: 3,
+				passChild: 1,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 3,
+				exceptionsChild: 2,
 				
-				passGrandChild: 10,
-				failGrandChild: 3,
+				passGrandChild: 24,
+				failGrandChild: 2,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 14,
+				skipGrandChild: 1,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 17,
+				exceptionsGrandChild: 3,
 			};
 		</script>
 		

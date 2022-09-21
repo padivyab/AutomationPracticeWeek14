@@ -113,7 +113,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "padiv1234578@gmail.com",
+        "padiv123457890@gmail.com",
         "diva",
         "patel",
         "Divo123456",
@@ -131,7 +131,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 34916553900,
+  "duration": 23093394100,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,7 +154,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I Enter email \"padiv1234578@gmail.com\"",
+  "name": "I Enter email \"padiv123457890@gmail.com\"",
   "matchedColumns": [
     0
   ],
@@ -251,34 +251,34 @@ formatter.match({
   "location": "createnewaccountsteps.iAmOnHomePage()"
 });
 formatter.result({
-  "duration": 825577900,
+  "duration": 684700200,
   "status": "passed"
 });
 formatter.match({
   "location": "createnewaccountsteps.iClickOnSignInLink()"
 });
 formatter.result({
-  "duration": 14808578600,
+  "duration": 15894135600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "padiv1234578@gmail.com",
+      "val": "padiv123457890@gmail.com",
       "offset": 15
     }
   ],
   "location": "createnewaccountsteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 697402800,
+  "duration": 868437200,
   "status": "passed"
 });
 formatter.match({
   "location": "createnewaccountsteps.iClickOnCreateAnAccountButton()"
 });
 formatter.result({
-  "duration": 235212600,
+  "duration": 304659800,
   "status": "passed"
 });
 formatter.match({
@@ -291,7 +291,7 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterFirstName(String)"
 });
 formatter.result({
-  "duration": 8367906500,
+  "duration": 7256708000,
   "status": "passed"
 });
 formatter.match({
@@ -304,7 +304,7 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterLastName(String)"
 });
 formatter.result({
-  "duration": 539951500,
+  "duration": 444141800,
   "status": "passed"
 });
 formatter.match({
@@ -317,7 +317,7 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterRegisterPassword(String)"
 });
 formatter.result({
-  "duration": 245564100,
+  "duration": 391679800,
   "status": "passed"
 });
 formatter.match({
@@ -330,7 +330,7 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterAddress(String)"
 });
 formatter.result({
-  "duration": 378234700,
+  "duration": 1278164800,
   "status": "passed"
 });
 formatter.match({
@@ -343,7 +343,7 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterCity(String)"
 });
 formatter.result({
-  "duration": 255864400,
+  "duration": 1503086900,
   "status": "passed"
 });
 formatter.match({
@@ -356,7 +356,7 @@ formatter.match({
   "location": "createnewaccountsteps.iSelectState(String)"
 });
 formatter.result({
-  "duration": 293110100,
+  "duration": 595933000,
   "status": "passed"
 });
 formatter.match({
@@ -369,7 +369,7 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterPostalCode(String)"
 });
 formatter.result({
-  "duration": 281345300,
+  "duration": 735312000,
   "status": "passed"
 });
 formatter.match({
@@ -382,7 +382,7 @@ formatter.match({
   "location": "createnewaccountsteps.iSelectCountry(String)"
 });
 formatter.result({
-  "duration": 135044600,
+  "duration": 496258100,
   "status": "passed"
 });
 formatter.match({
@@ -395,14 +395,14 @@ formatter.match({
   "location": "createnewaccountsteps.iEnterPhoneNumber(String)"
 });
 formatter.result({
-  "duration": 253073700,
+  "duration": 547299200,
   "status": "passed"
 });
 formatter.match({
   "location": "createnewaccountsteps.iClickOnRegisterButton()"
 });
 formatter.result({
-  "duration": 10211688600,
+  "duration": 9776641100,
   "status": "passed"
 });
 formatter.match({
@@ -415,11 +415,11 @@ formatter.match({
   "location": "createnewaccountsteps.iVerifyAccountName(String)"
 });
 formatter.result({
-  "duration": 16680076200,
+  "duration": 159227200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 143500,
+  "duration": 205800,
   "status": "passed"
 });
 formatter.uri("src/test/java/resources/featurefile/shoppingcart.feature");
@@ -431,7 +431,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 20110115100,
+  "duration": 13281755600,
   "status": "passed"
 });
 formatter.scenario({
@@ -474,68 +474,65 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "verify \"Your shopping cart is empty.\"",
+  "name": "I can see shopping cart is empty",
   "keyword": "Then "
 });
 formatter.match({
   "location": "shoppincartsteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 61100,
+  "duration": 96800,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppincartsteps.iClickOnWomanTab()"
 });
 formatter.result({
-  "duration": 17194811100,
+  "duration": 6000172700,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppincartsteps.iClickOnProduct()"
 });
 formatter.result({
-  "duration": 686382000,
+  "duration": 4991748600,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppincartsteps.iClickOnAddToCart()"
 });
 formatter.result({
-  "duration": 20359887100,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d105.0.5195.126)\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-ELH5PJN7\u0027, ip: \u0027192.168.0.194\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6ef0994adb92ca58a774810d9dbdbe13, clickElement {id\u003d4517a01d-5c07-43d6-863d-1d7f7ace7eb8}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\DIVYAP~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53664/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (6ef0994adb92ca58a774810d9dbdbe13)] -\u003e xpath: //span[contains(text(),\u0027Add to cart\u0027)]]\nSession ID: 6ef0994adb92ca58a774810d9dbdbe13\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.automation.utilities.Utility.clickOnElement(Utility.java:53)\r\n\tat com.automation.pages.HomePage.ClickCart(HomePage.java:89)\r\n\tat com.automation.steps.shoppincartsteps.iClickOnAddToCart(shoppincartsteps.java:29)\r\n\tat ✽.And I click on add to cart(src/test/java/resources/featurefile/shoppingcart.feature:9)\r\n",
-  "status": "failed"
+  "duration": 480037500,
+  "status": "passed"
 });
 formatter.match({
   "location": "shoppincartsteps.iProceedToCheckout()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9590798900,
+  "status": "passed"
 });
 formatter.match({
   "location": "shoppincartsteps.iClickOnDeleteButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 277212200,
+  "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Your shopping cart is empty.",
-      "offset": 8
-    }
-  ],
-  "location": "shoppincartsteps.verify(String)"
+  "location": "shoppincartsteps.iCanSeeShoppingCartIsEmpty()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 149355700,
+  "error_message": "java.lang.AssertionError: expected [Your shopping cart is empty.] but found []\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.automation.steps.shoppincartsteps.iCanSeeShoppingCartIsEmpty(shoppincartsteps.java:47)\r\n\tat ✽.Then I can see shopping cart is empty(src/test/java/resources/featurefile/shoppingcart.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 858379100,
+  "duration": 537893700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14836708600,
+  "duration": 19934452700,
   "status": "passed"
 });
 formatter.scenario({
@@ -575,29 +572,29 @@ formatter.match({
   "location": "shoppincartsteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 30000,
+  "duration": 54000,
   "status": "passed"
 });
 formatter.match({
   "location": "summerdressessteps.iMousehoverOnWomanTab()"
 });
 formatter.result({
-  "duration": 493544700,
+  "duration": 2807228800,
   "status": "passed"
 });
 formatter.match({
   "location": "summerdressessteps.iClickOnSummerDresses()"
 });
 formatter.result({
-  "duration": 14758065800,
+  "duration": 11671398300,
   "status": "passed"
 });
 formatter.match({
   "location": "summerdressessteps.iPriceChange()"
 });
 formatter.result({
-  "duration": 520697900,
-  "error_message": "org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome\u003d105.0.5195.126)\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-ELH5PJN7\u0027, ip: \u0027192.168.0.194\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e0f2f9f4660256875a71681600b6c500, actions {actions\u003d[org.openqa.selenium.interactions.Sequence@64d4f7c7]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\DIVYAP~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54041/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e0f2f9f4660256875a71681600b6c500\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:573)\r\n\tat com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:46)\r\n\tat com.automation.steps.summerdressessteps.iPriceChange(summerdressessteps.java:26)\r\n\tat ✽.And I price change(src/test/java/resources/featurefile/shoppingcart.feature:19)\r\n",
+  "duration": 930320200,
+  "error_message": "org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome\u003d105.0.5195.126)\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-ELH5PJN7\u0027, ip: \u002710.0.0.144\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cc9bdc1012673ab7c394d878f62b60fc, actions {actions\u003d[org.openqa.selenium.interactions.Sequence@574a89e2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\DIVYAP~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52713/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cc9bdc1012673ab7c394d878f62b60fc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:573)\r\n\tat com.automation.pages.WomenSummerDresses.changePrice(WomenSummerDresses.java:46)\r\n\tat com.automation.steps.summerdressessteps.iPriceChange(summerdressessteps.java:26)\r\n\tat ✽.And I price change(src/test/java/resources/featurefile/shoppingcart.feature:19)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -607,7 +604,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 698135800,
+  "duration": 956098400,
   "status": "passed"
 });
 });

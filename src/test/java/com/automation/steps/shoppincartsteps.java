@@ -20,13 +20,14 @@ public class shoppincartsteps {
 
     @And("^I click on product$")
     public void iClickOnProduct() {
-        new HomePage().ClickOnItemP();
+        new HomePage().ClickProductFadded();
+
     }
 
     @And("^I click on add to cart$")
     public void iClickOnAddToCart()
     {
-        new HomePage().ClickCart();
+        new HomePage().ClickAddButton();
 
     }
     @And("^I click on delete button$")
@@ -34,16 +35,15 @@ public class shoppincartsteps {
 
         new HomePage().ClickOnDelete();
     }
-
-    @Then("^verify \"([^\"]*)\"$")
-    public void verify(String msg)  {
-        Assert.assertEquals(msg, new HomePage().VerifyToMsg());
-
-    }
-
     @And("^I proceed to checkout$")
     public void iProceedToCheckout() {
 
         new HomePage().ClickOnProceed();
+    }
+
+    @Then("^I can see shopping cart is empty$")
+    public void iCanSeeShoppingCartIsEmpty() {
+        String verifyText = new HomePage().VerifyToMsg();
+        Assert.assertEquals(verifyText, "Your shopping cart is empty.");
     }
 }
